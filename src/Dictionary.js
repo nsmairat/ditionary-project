@@ -5,12 +5,16 @@ import Results from "./Results";
 
 export default function Dictionary() {
   let [keyword, setKeyword] = useState("");
+  let [results, setResults] = useState({});
   //keyword is a bucket
   //setKeyword is a function
 
   function handleResponse(response) {
-    console.log(response.data.meanings[0].definition);
-    console.log(response);
+    //console.log(response.data.meanings[0]);
+    //console.log(response);
+    setResults(response.data);
+    console.log(response.data);
+    //console.log(results);
   }
 
   function search(event) {
@@ -32,7 +36,8 @@ export default function Dictionary() {
       <form onSubmit={search}>
         <input type="search" onChange={handleKeyWordChange} />
       </form>
-      <Results />
+
+      <Results results={results} />
     </div>
   );
 }
