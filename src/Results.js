@@ -10,6 +10,7 @@ export default function Results(props) {
           return (
             <div key={index}>
               <Meaning meaning={meaning} />
+              
             </div>
           );
         })}

@@ -11,7 +11,15 @@ export default function App() {
         <Dictionary />
       </main>
       <footer className="App-footer">
-        <small>Coded by Nila Smairat</small>
+        <small>
+          Coded by Nila Smairat, code included on{" "}
+          <a
+            href="https://github.com/nsmairat/ditionary-project"
+            target="_blank"
+          >
+            GitHub
+          </a>
+        </small>
       </footer>
     </div>
   );
