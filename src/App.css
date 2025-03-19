@@ -1,3 +1,15 @@
+body {
+  background: rgb(238, 237, 237);
+}
+
+a {
+  color: rgb(71, 67, 67);
+}
+
+.App-header {
+  margin: 30px 0;
+}
+
 .App-footer {
   text-align: center;
   margin: 30px 0;
