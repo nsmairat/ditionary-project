@@ -12,7 +12,7 @@ export default function App() {
       </main>
       <footer className="App-footer">
         <small>
-          Coded by Nila Smairat, code included on{" "}
+          Coded by <a href="">Nila Smairat</a>, code included on{" "}
           <a
             href="https://github.com/nsmairat/ditionary-project"
             target="_blank"
