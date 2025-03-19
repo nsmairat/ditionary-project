@@ -12,7 +12,11 @@ export default function App() {
       </main>
       <footer className="App-footer">
         <small>
-          Coded by <a href="">Nila Smairat</a>, code included on{" "}
+          Coded by{" "}
+          <a href="https://www.shecodes.io/cohorts/2005/projects/2348838?_gl=1*lzrgwm*_gcl_au*MjExNzc3Njc2OS4xNzM1NDQ0NDE3">
+            Nila Smairat
+          </a>
+          , code included on{" "}
           <a
             href="https://github.com/nsmairat/ditionary-project"
             target="_blank"
