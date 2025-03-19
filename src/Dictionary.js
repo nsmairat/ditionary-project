@@ -10,10 +10,11 @@ export default function Dictionary() {
   //setKeyword is a function
 
   function handleResponse(response) {
+    //console.log(response.data);
     //console.log(response.data.meanings[0]);
-    //console.log(response);
+    console.log(response);
     setResults(response.data);
-    console.log(response.data);
+
     //console.log(results);
   }
 
@@ -36,7 +37,6 @@ export default function Dictionary() {
       <form onSubmit={search}>
         <input type="search" onChange={handleKeyWordChange} />
       </form>
-
       <Results results={results} />
     </div>
   );
