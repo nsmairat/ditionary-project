@@ -4,11 +4,11 @@
 }
 
 body {
-  background: rgb(238, 237, 237);
+  background: #d0f3ea;
 }
 
 a {
-  color: rgb(71, 67, 67);
+  color: #253731;
 }
 
 .App-header {
@@ -17,6 +17,7 @@ a {
   font-size: 40px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: bold;
+  color: #253731;
 }
 
 .App-footer {
