@@ -20,6 +20,7 @@ export default function App() {
           <a
             href="https://github.com/nsmairat/ditionary-project"
             target="_blank"
+            rel="noreferrer"
           >
             GitHub
           </a>
